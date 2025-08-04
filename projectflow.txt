@@ -1,1 +1,10 @@
 1. Create mycode.py and add code to do it.
+2. install dvc
+3. "dvc/data"
+4. dvc init
+5. mkdir S3
+6. dvc remote add -d myremote S3
+7. dvc add data/ ("After git rm -r --cached 'data' and git commit -m"stop tracking data"")
+8. git add .gitignore data.dvc
+9. dvc commit, dvc push
+10. adding new row and making changes   
